@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownieDrive.Businesslogic", "DownieDrive.Businesslogic\DownieDrive.Businesslogic.csproj", "{A9FAA4BD-163F-400C-9E71-C1E8EE4DDD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownieDrive.Web", "DownieDrive.Web\DownieDrive.Web.csproj", "{F83DD562-25C2-45C9-8CD9-9C2C768CFC62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9FAA4BD-163F-400C-9E71-C1E8EE4DDD5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9FAA4BD-163F-400C-9E71-C1E8EE4DDD5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9FAA4BD-163F-400C-9E71-C1E8EE4DDD5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9FAA4BD-163F-400C-9E71-C1E8EE4DDD5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F83DD562-25C2-45C9-8CD9-9C2C768CFC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83DD562-25C2-45C9-8CD9-9C2C768CFC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83DD562-25C2-45C9-8CD9-9C2C768CFC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83DD562-25C2-45C9-8CD9-9C2C768CFC62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
