@@ -1150,85 +1150,85 @@
 .yellow-text.text-accent-4 {
   color: #ffd600 !important; }
 
-.amber {
+.amber, #login-view .background .background-accent {
   background-color: #ffc107 !important; }
 
 .amber-text {
   color: #ffc107 !important; }
 
-.amber.lighten-5 {
+.amber.lighten-5, #login-view .background .lighten-5.background-accent {
   background-color: #fff8e1 !important; }
 
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important; }
 
-.amber.lighten-4 {
+.amber.lighten-4, #login-view .background .lighten-4.background-accent {
   background-color: #ffecb3 !important; }
 
 .amber-text.text-lighten-4 {
   color: #ffecb3 !important; }
 
-.amber.lighten-3 {
+.amber.lighten-3, #login-view .background .lighten-3.background-accent {
   background-color: #ffe082 !important; }
 
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2 {
+.amber.lighten-2, #login-view .background .lighten-2.background-accent {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1 {
+.amber.lighten-1, #login-view .background .lighten-1.background-accent {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
   color: #ffca28 !important; }
 
-.amber.darken-1 {
+.amber.darken-1, #login-view .background .darken-1.background-accent {
   background-color: #ffb300 !important; }
 
 .amber-text.text-darken-1 {
   color: #ffb300 !important; }
 
-.amber.darken-2 {
+.amber.darken-2, #login-view .background .darken-2.background-accent {
   background-color: #ffa000 !important; }
 
 .amber-text.text-darken-2 {
   color: #ffa000 !important; }
 
-.amber.darken-3 {
+.amber.darken-3, #login-view .background .darken-3.background-accent {
   background-color: #ff8f00 !important; }
 
 .amber-text.text-darken-3 {
   color: #ff8f00 !important; }
 
-.amber.darken-4 {
+.amber.darken-4, #login-view .background .darken-4.background-accent {
   background-color: #ff6f00 !important; }
 
 .amber-text.text-darken-4 {
   color: #ff6f00 !important; }
 
-.amber.accent-1 {
+.amber.accent-1, #login-view .background .accent-1.background-accent {
   background-color: #ffe57f !important; }
 
 .amber-text.text-accent-1 {
   color: #ffe57f !important; }
 
-.amber.accent-2 {
+.amber.accent-2, #login-view .background .accent-2.background-accent {
   background-color: #ffd740 !important; }
 
 .amber-text.text-accent-2 {
   color: #ffd740 !important; }
 
-.amber.accent-3 {
+.amber.accent-3, #login-view .background .accent-3.background-accent {
   background-color: #ffc400 !important; }
 
 .amber-text.text-accent-3 {
   color: #ffc400 !important; }
 
-.amber.accent-4 {
+.amber.accent-4, #login-view .background .accent-4.background-accent {
   background-color: #ffab00 !important; }
 
 .amber-text.text-accent-4 {
@@ -6147,5 +6147,88 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 @media (min-height: 40.125em) {
   .picker--time .picker__box {
     margin-bottom: 5em; } }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html {
+  height: 100%; }
+
+body {
+  line-height: 1;
+  min-height: 100%; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#login-view {
+  height: 100vh; }
+  #login-view .background {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: -1; }
+    #login-view .background .background-accent {
+      height: 50%;
+      width: 100%; }
+    #login-view .background .spikes {
+      width: 100%;
+      background-image: url(/Images/spike.png);
+      background-repeat: repeat-x;
+      height: 128px; }
+  #login-view .login-overlay {
+    background-color: white;
+    min-height: 600px;
+    transform: translate(0, -50%);
+    position: absolute;
+    top: 40%;
+    width: 450px;
+    left: calc(90% - 450px); }
+    @media only screen and (max-width: 600px) {
+      #login-view .login-overlay {
+        position: initial;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: none; } }
+    #login-view .login-overlay .logo {
+      background-image: url(/Images/logo_dropshadow.png);
+      width: 150px;
+      height: 150px;
+      background-size: 100% 100%; }
 
 /*# sourceMappingURL=main.css.map */

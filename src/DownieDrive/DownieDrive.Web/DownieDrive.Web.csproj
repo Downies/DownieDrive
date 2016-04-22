@@ -106,12 +106,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Base\reset.css">
+      <DependentUpon>reset.scss</DependentUpon>
+    </Content>
     <Content Include="Content\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Sites\Login\login.css">
+      <DependentUpon>login.scss</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="Content\main.scss" />
+    <Content Include="Content\Sites\Login\login.scss" />
+    <Content Include="Content\Base\reset.scss" />
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
+    <Content Include="Images\logo_dropshadow.png" />
+    <Content Include="Images\spike.png" />
     <Content Include="lib\jquery\jquery-1.10.2.js" />
     <Content Include="lib\jquery\jquery-1.10.2.min.js" />
     <Content Include="lib\materialize\js\animation.js" />
@@ -213,6 +223,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -225,6 +236,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="lib\jquery\jquery-1.10.2.min.map" />
+    <Content Include="Views\Login\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
