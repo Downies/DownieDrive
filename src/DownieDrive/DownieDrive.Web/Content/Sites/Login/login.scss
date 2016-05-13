@@ -1,47 +1,96 @@
 $login-overlay-width: 450px;
+
 #login-view {
     height: 100vh;
+
     .background {
-        height:100vh;
-        width:100%;
-        position:absolute;
-        z-index:-1;
+        height: 100vh;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+
         .background-accent {
             @extend .amber;
             height: 50%;
             width: 100%;
         }
-        .spikes{
-            width:100%;
-            background-image:url(/Images/spike.png);
-            background-repeat:repeat-x;
-            height:128px;
+
+        .spikes {
+            width: 100%;
+            background-image: url(/Images/spike.png);
+            background-repeat: repeat-x;
+            height: 128px;
         }
     }
-    .login-overlay{
-        background-color:white;
-        min-height:600px;
-        transform:translate(0, -50%);
+
+    .login-overlay {
+        background-color: white;
+        max-height: 600px;
+        height: 100%;
+        transform: translate(0, -50%);
         position: absolute;
-        top: 40%;
-        width:$login-overlay-width;
-        left:calc(90% - #{$login-overlay-width});
+        top: 50%;
+        width: $login-overlay-width;
+        left: calc(90% - #{$login-overlay-width});
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         @media #{$small-and-down} {
-            position:initial;
-            width:100%;
-            height:100%;
-            top:0;
-            left:0;
-            transform:none;
+            position: initial;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            transform: none;
         }
-        .logo{
-            background-image:url(/Images/logo_dropshadow.png);
-            width:150px;
-            height:150px;
-            background-size:100% 100%;
-            position:absolute;
-            left:50%;
-            transform:translate(-50%);
+
+        .btn {
+            width: 250px;
+            height: 40px;
+
+            &.create-user {
+                margin-top: 100px;
+                @extend .blue-grey;
+            }
+
+            &.login {
+                @extend .amber;
+            }
+        }
+
+        .or-line {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 250px;
+            position: relative;
+            text-align: center;
+
+
+            &-text {
+                background-color: white;
+                padding-left: 10px;
+                padding-right: 10px;
+                @extend .blue-grey-text;
+            }
+
+            &:before {
+                position: absolute;
+                height: 1px;
+                width: 100%;
+                display: block;
+                z-index: -1;
+                content: '';
+                @extend .blue-grey;
+                top: 50%;
+            }
+        }
+
+        .logo {
+            background-image: url(/Images/logo_dropshadow.png);
+            width: 150px;
+            height: 150px;
+            background-size: 100% 100%;
         }
     }
 }

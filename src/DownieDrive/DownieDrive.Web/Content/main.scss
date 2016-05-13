@@ -1,4 +1,8 @@
 ﻿@import "../lib/materialize/sass/materialize.scss";
 
 @import "Base/reset.scss";
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
 @import "Sites/Login/login.scss";
