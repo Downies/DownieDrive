@@ -10,12 +10,54 @@
     </div>
 
     <div class="login-overlay z-depth-2">
-        <div class="logo"></div>
-        <button class="btn create-user">Benutzer erstellen</button>
-        <div class="or-line"><span class="or-line-text">oder</span></div>
-        <button class="btn login">Einloggen</button>
+        <div id="login-overlay-menu">
+            <div class="logo"></div>
+            <button class="btn create-user">Benutzer erstellen</button>
+            <div class="or-line"><span class="or-line-text">oder</span></div>
+            <button class="btn login">Einloggen</button>
+        </div>
+        <div id="login-overlay-register">
+            <div class="login-overlay-toolbar">
+                <div class="logo"></div>
+            </div>
+            @using (Html.BeginForm("Register", "Login", null, FormMethod.Post, new { @class = "row" }))
+            {
+                <div class="input-field col s12">
+                    <input id="vorname" type="text" name="vorname" class="validate">
+                    <label for="vorname">Vorname</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="nachname" type="text" name="nachname" class="validate">
+                    <label for="nachname">Nachname</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password" type="password" name="password" class="validate">
+                    <label for="password">Passwort</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="passwordrepeat" type="password" name="passwordrepeat" class="validate">
+                    <label for="passwordrepeat">Passwort wiederholen</label>
+                </div>
+                <button class="row btn white btn-register">Regestrieren</button>
+            }
+        </div>
+        <div id="login-overlay-login">
+
+        </div>
     </div>
-</div>
-
 
 </div>
+@section scripts {
+    <script type="text/javascript">
+        $(function () {
+            $("#login-overlay-menu .create-user").click(function () {
+                $("#login-overlay-register").addClass("active");
+                $("#login-overlay-login").removeClass("active");
+            });
+        });
+    </script>
+}

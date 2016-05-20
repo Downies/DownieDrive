@@ -2,10 +2,10 @@
 Error: Undefined variable: "$small-and-down".
         on line 39 of C:\Users\Livio\Google Drive\Projects\DownieDrive\src\DownieDrive\DownieDrive.Web\Content\Sites\Login\login.scss
 
-34:         left: calc(90% - #{$login-overlay-width});
-35:         display: flex;
-36:         flex-direction: column;
-37:         align-items: center;
+34:         position: absolute;
+35:         top: 50%;
+36:         width: $login-overlay-width;
+37:         left: calc(90% - #{$login-overlay-width});
 38: 
 39:         @media #{$small-and-down} {
 40:             position: initial;
@@ -79,4 +79,4 @@ C:/Users/Livio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/bin/sas
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$small-and-down\".\A         on line 39 of C:\Users\Livio\Google Drive\Projects\DownieDrive\src\DownieDrive\DownieDrive.Web\Content\Sites\Login\login.scss\A \A 34:         left: calc(90% - #{$login-overlay-width});\A 35:         display: flex;\A 36:         flex-direction: column;\A 37:         align-items: center;\A 38: \A 39:         @media #{$small-and-down} {\A 40:             position: initial;\A 41:             width: 100%;\A 42:             height: 100%;\A 43:             top: 0;\A 44:             left: 0;"; }
+  content: "Error: Undefined variable: \"$small-and-down\".\A         on line 39 of C:\Users\Livio\Google Drive\Projects\DownieDrive\src\DownieDrive\DownieDrive.Web\Content\Sites\Login\login.scss\A \A 34:         position: absolute;\A 35:         top: 50%;\A 36:         width: $login-overlay-width;\A 37:         left: calc(90% - #{$login-overlay-width});\A 38: \A 39:         @media #{$small-and-down} {\A 40:             position: initial;\A 41:             width: 100%;\A 42:             height: 100%;\A 43:             top: 0;\A 44:             left: 0;"; }

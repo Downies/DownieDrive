@@ -1150,85 +1150,85 @@
 .yellow-text.text-accent-4 {
   color: #ffd600 !important; }
 
-.amber, #login-view .background .background-accent, #login-view .login-overlay .btn.login, #login-view .login-overlay .login.btn-large {
+.amber, #login-view .background .background-accent, #login-view .login-overlay #login-overlay-menu .btn.login, #login-view .login-overlay #login-overlay-menu .login.btn-large, #login-view .login-overlay #login-overlay-register {
   background-color: #ffc107 !important; }
 
 .amber-text {
   color: #ffc107 !important; }
 
-.amber.lighten-5, #login-view .background .lighten-5.background-accent, #login-view .login-overlay .lighten-5.btn.login, #login-view .login-overlay .lighten-5.login.btn-large {
+.amber.lighten-5, #login-view .background .lighten-5.background-accent, #login-view .login-overlay #login-overlay-menu .lighten-5.btn.login, #login-view .login-overlay #login-overlay-menu .lighten-5.login.btn-large, #login-view .login-overlay .lighten-5#login-overlay-register {
   background-color: #fff8e1 !important; }
 
 .amber-text.text-lighten-5 {
   color: #fff8e1 !important; }
 
-.amber.lighten-4, #login-view .background .lighten-4.background-accent, #login-view .login-overlay .lighten-4.btn.login, #login-view .login-overlay .lighten-4.login.btn-large {
+.amber.lighten-4, #login-view .background .lighten-4.background-accent, #login-view .login-overlay #login-overlay-menu .lighten-4.btn.login, #login-view .login-overlay #login-overlay-menu .lighten-4.login.btn-large, #login-view .login-overlay .lighten-4#login-overlay-register {
   background-color: #ffecb3 !important; }
 
 .amber-text.text-lighten-4 {
   color: #ffecb3 !important; }
 
-.amber.lighten-3, #login-view .background .lighten-3.background-accent, #login-view .login-overlay .lighten-3.btn.login, #login-view .login-overlay .lighten-3.login.btn-large {
+.amber.lighten-3, #login-view .background .lighten-3.background-accent, #login-view .login-overlay #login-overlay-menu .lighten-3.btn.login, #login-view .login-overlay #login-overlay-menu .lighten-3.login.btn-large, #login-view .login-overlay .lighten-3#login-overlay-register {
   background-color: #ffe082 !important; }
 
 .amber-text.text-lighten-3 {
   color: #ffe082 !important; }
 
-.amber.lighten-2, #login-view .background .lighten-2.background-accent, #login-view .login-overlay .lighten-2.btn.login, #login-view .login-overlay .lighten-2.login.btn-large {
+.amber.lighten-2, #login-view .background .lighten-2.background-accent, #login-view .login-overlay #login-overlay-menu .lighten-2.btn.login, #login-view .login-overlay #login-overlay-menu .lighten-2.login.btn-large, #login-view .login-overlay .lighten-2#login-overlay-register {
   background-color: #ffd54f !important; }
 
 .amber-text.text-lighten-2 {
   color: #ffd54f !important; }
 
-.amber.lighten-1, #login-view .background .lighten-1.background-accent, #login-view .login-overlay .lighten-1.btn.login, #login-view .login-overlay .lighten-1.login.btn-large {
+.amber.lighten-1, #login-view .background .lighten-1.background-accent, #login-view .login-overlay #login-overlay-menu .lighten-1.btn.login, #login-view .login-overlay #login-overlay-menu .lighten-1.login.btn-large, #login-view .login-overlay .lighten-1#login-overlay-register {
   background-color: #ffca28 !important; }
 
 .amber-text.text-lighten-1 {
   color: #ffca28 !important; }
 
-.amber.darken-1, #login-view .background .darken-1.background-accent, #login-view .login-overlay .darken-1.btn.login, #login-view .login-overlay .darken-1.login.btn-large {
+.amber.darken-1, #login-view .background .darken-1.background-accent, #login-view .login-overlay #login-overlay-menu .darken-1.btn.login, #login-view .login-overlay #login-overlay-menu .darken-1.login.btn-large, #login-view .login-overlay .darken-1#login-overlay-register {
   background-color: #ffb300 !important; }
 
 .amber-text.text-darken-1 {
   color: #ffb300 !important; }
 
-.amber.darken-2, #login-view .background .darken-2.background-accent, #login-view .login-overlay .darken-2.btn.login, #login-view .login-overlay .darken-2.login.btn-large {
+.amber.darken-2, #login-view .background .darken-2.background-accent, #login-view .login-overlay #login-overlay-menu .darken-2.btn.login, #login-view .login-overlay #login-overlay-menu .darken-2.login.btn-large, #login-view .login-overlay .darken-2#login-overlay-register {
   background-color: #ffa000 !important; }
 
 .amber-text.text-darken-2 {
   color: #ffa000 !important; }
 
-.amber.darken-3, #login-view .background .darken-3.background-accent, #login-view .login-overlay .darken-3.btn.login, #login-view .login-overlay .darken-3.login.btn-large {
+.amber.darken-3, #login-view .background .darken-3.background-accent, #login-view .login-overlay #login-overlay-menu .darken-3.btn.login, #login-view .login-overlay #login-overlay-menu .darken-3.login.btn-large, #login-view .login-overlay .darken-3#login-overlay-register {
   background-color: #ff8f00 !important; }
 
 .amber-text.text-darken-3 {
   color: #ff8f00 !important; }
 
-.amber.darken-4, #login-view .background .darken-4.background-accent, #login-view .login-overlay .darken-4.btn.login, #login-view .login-overlay .darken-4.login.btn-large {
+.amber.darken-4, #login-view .background .darken-4.background-accent, #login-view .login-overlay #login-overlay-menu .darken-4.btn.login, #login-view .login-overlay #login-overlay-menu .darken-4.login.btn-large, #login-view .login-overlay .darken-4#login-overlay-register {
   background-color: #ff6f00 !important; }
 
 .amber-text.text-darken-4 {
   color: #ff6f00 !important; }
 
-.amber.accent-1, #login-view .background .accent-1.background-accent, #login-view .login-overlay .accent-1.btn.login, #login-view .login-overlay .accent-1.login.btn-large {
+.amber.accent-1, #login-view .background .accent-1.background-accent, #login-view .login-overlay #login-overlay-menu .accent-1.btn.login, #login-view .login-overlay #login-overlay-menu .accent-1.login.btn-large, #login-view .login-overlay .accent-1#login-overlay-register {
   background-color: #ffe57f !important; }
 
 .amber-text.text-accent-1 {
   color: #ffe57f !important; }
 
-.amber.accent-2, #login-view .background .accent-2.background-accent, #login-view .login-overlay .accent-2.btn.login, #login-view .login-overlay .accent-2.login.btn-large {
+.amber.accent-2, #login-view .background .accent-2.background-accent, #login-view .login-overlay #login-overlay-menu .accent-2.btn.login, #login-view .login-overlay #login-overlay-menu .accent-2.login.btn-large, #login-view .login-overlay .accent-2#login-overlay-register {
   background-color: #ffd740 !important; }
 
 .amber-text.text-accent-2 {
   color: #ffd740 !important; }
 
-.amber.accent-3, #login-view .background .accent-3.background-accent, #login-view .login-overlay .accent-3.btn.login, #login-view .login-overlay .accent-3.login.btn-large {
+.amber.accent-3, #login-view .background .accent-3.background-accent, #login-view .login-overlay #login-overlay-menu .accent-3.btn.login, #login-view .login-overlay #login-overlay-menu .accent-3.login.btn-large, #login-view .login-overlay .accent-3#login-overlay-register {
   background-color: #ffc400 !important; }
 
 .amber-text.text-accent-3 {
   color: #ffc400 !important; }
 
-.amber.accent-4, #login-view .background .accent-4.background-accent, #login-view .login-overlay .accent-4.btn.login, #login-view .login-overlay .accent-4.login.btn-large {
+.amber.accent-4, #login-view .background .accent-4.background-accent, #login-view .login-overlay #login-overlay-menu .accent-4.btn.login, #login-view .login-overlay #login-overlay-menu .accent-4.login.btn-large, #login-view .login-overlay .accent-4#login-overlay-register {
   background-color: #ffab00 !important; }
 
 .amber-text.text-accent-4 {
@@ -1462,64 +1462,64 @@
 .brown-text.text-darken-4 {
   color: #3e2723 !important; }
 
-.blue-grey, #login-view .login-overlay .btn.create-user, #login-view .login-overlay .create-user.btn-large, #login-view .login-overlay .or-line:before {
+.blue-grey, #login-view .login-overlay #login-overlay-menu .btn.create-user, #login-view .login-overlay #login-overlay-menu .create-user.btn-large, #login-view .login-overlay #login-overlay-menu .or-line:before {
   background-color: #607d8b !important; }
 
-.blue-grey-text, #login-view .login-overlay .or-line-text {
+.blue-grey-text, #login-view .login-overlay #login-overlay-menu .or-line-text {
   color: #607d8b !important; }
 
-.blue-grey.lighten-5, #login-view .login-overlay .lighten-5.btn.create-user, #login-view .login-overlay .lighten-5.create-user.btn-large, #login-view .login-overlay .lighten-5.or-line:before {
+.blue-grey.lighten-5, #login-view .login-overlay #login-overlay-menu .lighten-5.btn.create-user, #login-view .login-overlay #login-overlay-menu .lighten-5.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .lighten-5.or-line:before {
   background-color: #eceff1 !important; }
 
-.blue-grey-text.text-lighten-5, #login-view .login-overlay .text-lighten-5.or-line-text {
+.blue-grey-text.text-lighten-5, #login-view .login-overlay #login-overlay-menu .text-lighten-5.or-line-text {
   color: #eceff1 !important; }
 
-.blue-grey.lighten-4, #login-view .login-overlay .lighten-4.btn.create-user, #login-view .login-overlay .lighten-4.create-user.btn-large, #login-view .login-overlay .lighten-4.or-line:before {
+.blue-grey.lighten-4, #login-view .login-overlay #login-overlay-menu .lighten-4.btn.create-user, #login-view .login-overlay #login-overlay-menu .lighten-4.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .lighten-4.or-line:before {
   background-color: #cfd8dc !important; }
 
-.blue-grey-text.text-lighten-4, #login-view .login-overlay .text-lighten-4.or-line-text {
+.blue-grey-text.text-lighten-4, #login-view .login-overlay #login-overlay-menu .text-lighten-4.or-line-text {
   color: #cfd8dc !important; }
 
-.blue-grey.lighten-3, #login-view .login-overlay .lighten-3.btn.create-user, #login-view .login-overlay .lighten-3.create-user.btn-large, #login-view .login-overlay .lighten-3.or-line:before {
+.blue-grey.lighten-3, #login-view .login-overlay #login-overlay-menu .lighten-3.btn.create-user, #login-view .login-overlay #login-overlay-menu .lighten-3.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .lighten-3.or-line:before {
   background-color: #b0bec5 !important; }
 
-.blue-grey-text.text-lighten-3, #login-view .login-overlay .text-lighten-3.or-line-text {
+.blue-grey-text.text-lighten-3, #login-view .login-overlay #login-overlay-menu .text-lighten-3.or-line-text {
   color: #b0bec5 !important; }
 
-.blue-grey.lighten-2, #login-view .login-overlay .lighten-2.btn.create-user, #login-view .login-overlay .lighten-2.create-user.btn-large, #login-view .login-overlay .lighten-2.or-line:before {
+.blue-grey.lighten-2, #login-view .login-overlay #login-overlay-menu .lighten-2.btn.create-user, #login-view .login-overlay #login-overlay-menu .lighten-2.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .lighten-2.or-line:before {
   background-color: #90a4ae !important; }
 
-.blue-grey-text.text-lighten-2, #login-view .login-overlay .text-lighten-2.or-line-text {
+.blue-grey-text.text-lighten-2, #login-view .login-overlay #login-overlay-menu .text-lighten-2.or-line-text {
   color: #90a4ae !important; }
 
-.blue-grey.lighten-1, #login-view .login-overlay .lighten-1.btn.create-user, #login-view .login-overlay .lighten-1.create-user.btn-large, #login-view .login-overlay .lighten-1.or-line:before {
+.blue-grey.lighten-1, #login-view .login-overlay #login-overlay-menu .lighten-1.btn.create-user, #login-view .login-overlay #login-overlay-menu .lighten-1.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .lighten-1.or-line:before {
   background-color: #78909c !important; }
 
-.blue-grey-text.text-lighten-1, #login-view .login-overlay .text-lighten-1.or-line-text {
+.blue-grey-text.text-lighten-1, #login-view .login-overlay #login-overlay-menu .text-lighten-1.or-line-text {
   color: #78909c !important; }
 
-.blue-grey.darken-1, #login-view .login-overlay .darken-1.btn.create-user, #login-view .login-overlay .darken-1.create-user.btn-large, #login-view .login-overlay .darken-1.or-line:before {
+.blue-grey.darken-1, #login-view .login-overlay #login-overlay-menu .darken-1.btn.create-user, #login-view .login-overlay #login-overlay-menu .darken-1.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .darken-1.or-line:before {
   background-color: #546e7a !important; }
 
-.blue-grey-text.text-darken-1, #login-view .login-overlay .text-darken-1.or-line-text {
+.blue-grey-text.text-darken-1, #login-view .login-overlay #login-overlay-menu .text-darken-1.or-line-text {
   color: #546e7a !important; }
 
-.blue-grey.darken-2, #login-view .login-overlay .darken-2.btn.create-user, #login-view .login-overlay .darken-2.create-user.btn-large, #login-view .login-overlay .darken-2.or-line:before {
+.blue-grey.darken-2, #login-view .login-overlay #login-overlay-menu .darken-2.btn.create-user, #login-view .login-overlay #login-overlay-menu .darken-2.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .darken-2.or-line:before {
   background-color: #455a64 !important; }
 
-.blue-grey-text.text-darken-2, #login-view .login-overlay .text-darken-2.or-line-text {
+.blue-grey-text.text-darken-2, #login-view .login-overlay #login-overlay-menu .text-darken-2.or-line-text {
   color: #455a64 !important; }
 
-.blue-grey.darken-3, #login-view .login-overlay .darken-3.btn.create-user, #login-view .login-overlay .darken-3.create-user.btn-large, #login-view .login-overlay .darken-3.or-line:before {
+.blue-grey.darken-3, #login-view .login-overlay #login-overlay-menu .darken-3.btn.create-user, #login-view .login-overlay #login-overlay-menu .darken-3.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .darken-3.or-line:before {
   background-color: #37474f !important; }
 
-.blue-grey-text.text-darken-3, #login-view .login-overlay .text-darken-3.or-line-text {
+.blue-grey-text.text-darken-3, #login-view .login-overlay #login-overlay-menu .text-darken-3.or-line-text {
   color: #37474f !important; }
 
-.blue-grey.darken-4, #login-view .login-overlay .darken-4.btn.create-user, #login-view .login-overlay .darken-4.create-user.btn-large, #login-view .login-overlay .darken-4.or-line:before {
+.blue-grey.darken-4, #login-view .login-overlay #login-overlay-menu .darken-4.btn.create-user, #login-view .login-overlay #login-overlay-menu .darken-4.create-user.btn-large, #login-view .login-overlay #login-overlay-menu .darken-4.or-line:before {
   background-color: #263238 !important; }
 
-.blue-grey-text.text-darken-4, #login-view .login-overlay .text-darken-4.or-line-text {
+.blue-grey-text.text-darken-4, #login-view .login-overlay #login-overlay-menu .text-darken-4.or-line-text {
   color: #263238 !important; }
 
 .grey {
@@ -6197,8 +6197,15 @@ table {
 body {
   font-family: 'Roboto', sans-serif; }
 
+.logo {
+  background-image: url(/Images/logo_dropshadow.png);
+  background-size: 100% 100%; }
+
 #login-view {
   height: 100vh; }
+  #login-view .logo {
+    margin-left: auto;
+    margin-right: auto; }
   #login-view .background {
     height: 100vh;
     width: 100%;
@@ -6220,10 +6227,7 @@ body {
     position: absolute;
     top: 50%;
     width: 450px;
-    left: calc(90% - 450px);
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
+    left: calc(90% - 450px); }
     @media only screen and (max-width: 600px) {
       #login-view .login-overlay {
         position: initial;
@@ -6232,33 +6236,92 @@ body {
         top: 0;
         left: 0;
         transform: none; } }
-    #login-view .login-overlay .btn, #login-view .login-overlay .btn-large {
-      width: 250px;
-      height: 40px; }
-      #login-view .login-overlay .btn.create-user, #login-view .login-overlay .create-user.btn-large {
-        margin-top: 100px; }
-    #login-view .login-overlay .or-line {
-      margin-top: 20px;
-      margin-bottom: 20px;
-      width: 250px;
-      position: relative;
-      text-align: center; }
-      #login-view .login-overlay .or-line-text {
-        background-color: white;
-        padding-left: 10px;
-        padding-right: 10px; }
-      #login-view .login-overlay .or-line:before {
-        position: absolute;
-        height: 1px;
-        width: 100%;
-        display: block;
-        z-index: -1;
-        content: '';
-        top: 50%; }
-    #login-view .login-overlay .logo {
-      background-image: url(/Images/logo_dropshadow.png);
-      width: 150px;
+    #login-view .login-overlay form {
+      width: 100%;
+      padding: 5px;
+      /* label color */
+      /* label focus color */
+      /* label underline focus color */
+      /* label focus color */
+      /* label underline focus color */
+      /* valid color */
+      /* invalid color */ }
+      #login-view .login-overlay form .input-field label {
+        color: #fff; }
+      #login-view .login-overlay form .input-field input {
+        border-bottom: 1px solid #fff; }
+      #login-view .login-overlay form .input-field input:focus + label {
+        color: #fff; }
+      #login-view .login-overlay form .input-field input:focus {
+        border-bottom: 1px solid #fff;
+        box-shadow: 0 1px 0 0 #fff; }
+      #login-view .login-overlay form .input-field input:focus {
+        color: #fff; }
+      #login-view .login-overlay form .input-field input:focus {
+        border-bottom: 1px solid #fff;
+        box-shadow: 0 1px 0 0 #fff; }
+      #login-view .login-overlay form .input-field input.valid {
+        border-bottom: 1px solid #fff;
+        box-shadow: 0 1px 0 0 #fff; }
+      #login-view .login-overlay form .input-field input.invalid {
+        border-bottom: 1px solid #fff;
+        box-shadow: 0 1px 0 0 #fff; }
+      #login-view .login-overlay form .input-field .prefix.active {
+        color: #fff; }
+    #login-view .login-overlay #login-overlay-menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 100%; }
+      #login-view .login-overlay #login-overlay-menu .btn, #login-view .login-overlay #login-overlay-menu .btn-large {
+        width: 250px;
+        height: 40px; }
+        #login-view .login-overlay #login-overlay-menu .btn.create-user, #login-view .login-overlay #login-overlay-menu .create-user.btn-large {
+          margin-top: 100px; }
+      #login-view .login-overlay #login-overlay-menu .or-line {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 250px;
+        position: relative;
+        text-align: center; }
+        #login-view .login-overlay #login-overlay-menu .or-line-text {
+          background-color: white;
+          padding-left: 10px;
+          padding-right: 10px; }
+        #login-view .login-overlay #login-overlay-menu .or-line:before {
+          position: absolute;
+          height: 1px;
+          width: 100%;
+          display: block;
+          z-index: -1;
+          content: '';
+          top: 50%; }
+      #login-view .login-overlay #login-overlay-menu .logo {
+        width: 150px;
+        height: 150px; }
+    #login-view .login-overlay #login-overlay-register {
+      width: 0;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      transition: width 0.5s ease-in-out;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #login-view .login-overlay #login-overlay-register .btn-register {
+        color: #2b2b2b;
+        width: 100%; }
+      #login-view .login-overlay #login-overlay-register.active {
+        width: 100%; }
+      #login-view .login-overlay #login-overlay-register .logo {
+        width: 75px;
+        height: 75px; }
+    #login-view .login-overlay-toolbar {
       height: 150px;
-      background-size: 100% 100%; }
+      width: 100%;
+      background-color: white; }
 
 /*# sourceMappingURL=main.css.map */

@@ -5,4 +5,9 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
+.logo{
+    background-image: url(/Images/logo_dropshadow.png);
+    background-size:100% 100%;
+}
+
 @import "Sites/Login/login.scss";
