@@ -16,9 +16,13 @@
             <div class="or-line"><span class="or-line-text">oder</span></div>
             <button class="btn login">Einloggen</button>
         </div>
-        <div id="login-overlay-register">
+        <div id="login-overlay-register" class="form-overlay">
             <div class="login-overlay-toolbar">
                 <div class="logo"></div>
+                <div class="row login-nav">
+                    <a class="register-nav-button nav-button nav-active"></a>
+                    <a class="login-nav-button nav-button tooltipped" data-position="bottom" data-delay="50" data-tooltip="Einloggen"></a>
+                </div>
             </div>
             @using (Html.BeginForm("Register", "Login", null, FormMethod.Post, new { @class = "row" }))
             {
@@ -42,22 +46,54 @@
                     <input id="passwordrepeat" type="password" name="passwordrepeat" class="validate">
                     <label for="passwordrepeat">Passwort wiederholen</label>
                 </div>
-                <button class="row btn white btn-register">Regestrieren</button>
+                <button class="row btn white btn-form">Regestrieren</button>
             }
         </div>
-        <div id="login-overlay-login">
+        <div id="login-overlay-login" class="form-overlay">
+            <div class="login-overlay-toolbar">
+                <div class="logo"></div>
+                <div class="login-nav row">
+                    <a class="register-nav-button nav-button tooltipped" data-position="bottom" data-delay="50" data-tooltip="Registrieren"></a>
+                    <a class="login-nav-button nav-button nav-active"></a>
+                </div>
 
+            </div>
+            @using (Html.BeginForm("Login", "Login", null, FormMethod.Post, new { @class = "row" }))
+            {
+                <div class="input-field col s12">
+                    <input id="email" type="email" name="email" class="validate">
+                    <label for="email">Email</label>
+                </div>
+                <div class="input-field col s12">
+                    <input id="password" type="password" name="password" class="validate">
+                    <label for="password">Passwort</label>
+                </div>
+                <button class="row btn white btn-form">Login</button>
+            }
         </div>
     </div>
 
 </div>
 @section scripts {
     <script type="text/javascript">
-        $(function () {
-            $("#login-overlay-menu .create-user").click(function () {
-                $("#login-overlay-register").addClass("active");
+        function showLogin() {
+            setTimeout(function () {
+                $("#login-overlay-register").removeClass("active");
+            }, 500);
+            $("#login-overlay-login").addClass("active");
+        }
+        function showRegister() {
+            $("#login-overlay-register").addClass("active");
+            setTimeout(function () {
                 $("#login-overlay-login").removeClass("active");
-            });
+            }, 500);
+
+        }
+        $(function () {
+            $(".register-nav-button").click(showRegister);
+            $(".login-nav-button").click(showLogin);
+            $("#login-overlay-menu .create-user").click(showRegister);
+            $("#login-overlay-menu .login").click(showLogin);
         });
     </script>
 }
