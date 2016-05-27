@@ -1,18 +1,10 @@
-﻿using MySql.Data.Entity;
-using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Data.Entity;
 
 namespace DownieDrive.Businesslogic
 {
     /// <summary>
     /// Datenbank Context Klasse für das DownieDrive. Über diese Klasse können Datenbank manipulationen vorgenommen werden.
     /// </summary>
-    [DbConfigurationType(typeof(MySqlEFConfiguration))]
     public class DownieContext : DbContext
     {
         private static string ConnectionStringName
@@ -30,11 +22,13 @@ namespace DownieDrive.Businesslogic
         public DownieContext()
             : base(ConnectionStringName)
         {
-
+            Database.SetInitializer<DownieContext>(new CreateDatabaseIfNotExists<DownieContext>());
         }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            // modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+            base.OnModelCreating(modelBuilder);
         }
 
         public DbSet<File> Files { get; set; }
