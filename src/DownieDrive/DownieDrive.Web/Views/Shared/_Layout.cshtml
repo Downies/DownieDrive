@@ -4,19 +4,19 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title</title>
     @Styles.Render("~/bundles/site")
     <link href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Roboto:400,500,400italic,300italic,300,100italic,100,500italic,700,700italic" rel="stylesheet"></link>
 </head>
 <body>
 
 
-        @RenderBody()
+        
     @Scripts.Render("~/bundles/jquery")
 
     
     @Scripts.Render("~/bundles/materialize")
-
-    @RenderSection("scripts", required: false)
+    @RenderBody()
+    
 </body>
 </html>

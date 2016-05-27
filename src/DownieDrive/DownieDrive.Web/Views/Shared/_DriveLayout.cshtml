@@ -1,0 +1,14 @@
+﻿
+@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="/Drive/Index" class="brand-logo"></a>
+    </div>
+</nav>
+<div class="drive-wrapper">
+    @Html.Partial("~/Views/Shared/_DriveMenu.cshtml")
+</div>
+
+@RenderBody()
+@RenderSection("scripts", false)

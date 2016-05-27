@@ -112,6 +112,12 @@
     <Content Include="Content\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Sites\Drive\menu.css">
+      <DependentUpon>menu.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\theme.css">
+      <DependentUpon>theme.scss</DependentUpon>
+    </Content>
     <Content Include="Content\Sites\Login\login.css">
       <DependentUpon>login.scss</DependentUpon>
     </Content>
@@ -119,6 +125,8 @@
     <Content Include="Content\main.scss" />
     <Content Include="Content\Sites\Login\login.scss" />
     <Content Include="Content\Base\reset.scss" />
+    <Content Include="Content\Sites\Drive\theme.scss" />
+    <Content Include="Content\Sites\Drive\menu.scss" />
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />
     <Content Include="Images\spike.png" />
@@ -156,6 +164,9 @@
     <Content Include="lib\materialize\js\transitions.js" />
     <Content Include="lib\materialize\js\velocity.min.js" />
     <Content Include="lib\materialize\js\waves.js" />
+    <Content Include="lib\materialize\sass\materialize.css">
+      <DependentUpon>materialize.scss</DependentUpon>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="fonts\roboto\Roboto-Bold.eot" />
     <Content Include="fonts\roboto\Roboto-Bold.ttf" />
@@ -222,6 +233,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\DriveController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Global.asax.cs">
@@ -237,6 +249,10 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="lib\jquery\jquery-1.10.2.min.map" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\_DriveLayout.cshtml" />
+    <Content Include="Views\Shared\_CleanLayout.cshtml" />
+    <Content Include="Views\Drive\Index.cshtml" />
+    <Content Include="Views\Shared\_DriveMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

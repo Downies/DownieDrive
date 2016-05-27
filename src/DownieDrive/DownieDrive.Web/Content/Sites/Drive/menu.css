@@ -1,0 +1,24 @@
+.drive-menu {
+  width: 300px;
+  border-right: 1px solid #BDBDBD;
+  height: 100%; }
+  .drive-menu-avatar {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .drive-menu-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; }
+  .drive-menu-user-name {
+    font-size: 22px;
+    color: #606062;
+    width: 100%;
+    text-align: center;
+    display: inline-block; }
+
+/*# sourceMappingURL=menu.css.map */
