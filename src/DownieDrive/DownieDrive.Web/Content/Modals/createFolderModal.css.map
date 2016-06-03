@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,oBAAoB;EAChB,KAAK,EAAC,KAAK",
+"sources": ["createFolderModal.scss"],
+"names": [],
+"file": "createFolderModal.css"
+}

@@ -118,6 +118,9 @@
     <Content Include="Content\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="Content\Modals\createFolderModal.css">
+      <DependentUpon>createFolderModal.scss</DependentUpon>
+    </Content>
     <Content Include="Content\Sites\Drive\ablage.css">
       <DependentUpon>ablage.scss</DependentUpon>
     </Content>
@@ -162,6 +165,7 @@
     <Content Include="Content\Components\drive-item.css.map">
       <DependentUpon>drive-item.css</DependentUpon>
     </Content>
+    <Content Include="Content\Modals\createFolderModal.scss" />
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />
     <Content Include="Images\spike.png" />
@@ -292,6 +296,7 @@
     <Content Include="Views\Shared\_DriveMenu.cshtml" />
     <Content Include="Views\Components\_Folder.cshtml" />
     <Content Include="Views\Components\_File.cshtml" />
+    <Content Include="Views\Modals\_CreateFolderModal.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
