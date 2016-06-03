@@ -291,6 +291,7 @@
     <Content Include="Views\Drive\Index.cshtml" />
     <Content Include="Views\Shared\_DriveMenu.cshtml" />
     <Content Include="Views\Components\_Folder.cshtml" />
+    <Content Include="Views\Components\_File.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -1,7 +1,8 @@
-﻿.drive-content#ablage-content .btn-floating {
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-}
+.drive-content#ablage-content {
+  padding: 5px; }
+  .drive-content#ablage-content .btn-floating {
+    position: absolute;
+    right: 20px;
+    bottom: 20px; }
 
 /*# sourceMappingURL=ablage.css.map */

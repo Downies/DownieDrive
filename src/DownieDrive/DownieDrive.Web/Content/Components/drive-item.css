@@ -1,33 +1,30 @@
-﻿.drive-item {
-  margin: 50px;
-}
+/*
+Sass::SyntaxError: ".drive-item" failed to @extend ".z-depth-1".
+The selector ".z-depth-1" was not found.
+Use "@extend .z-depth-1 !optional" if the extend should be able to fail.
 
-.drive-item-folder {
-  width: 200px;
-  vertical-align: central;
-  background-color: white;
-  height: 50px;
-  margin: 5px;
-}
 
-.drive-item-folder a {
-  color: #2b2b2b;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.drive-item-folder .material-icons {
-  position: relative;
-  top: 50%;
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  margin-left: 15px;
-  color: #aaaaaa;
-  margin-right: 10px;
-}
-
-/*# sourceMappingURL=drive-item.css.map */
+Backtrace:
+E:\Google Drive\Projects\DownieDrive\src\DownieDrive\DownieDrive.Web\Content\Components\drive-item.scss:8
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/extend.rb:65:in `block in check_extends_fired!'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/util/subset_map.rb:106:in `block in each_value'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/util/subset_map.rb:106:in `each'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/util/subset_map.rb:106:in `each_value'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/extend.rb:50:in `check_extends_fired!'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/visitors/extend.rb:16:in `visit'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:39:in `css_tree'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/engine.rb:285:in `render_with_sourcemap'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:375:in `run'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/sass_scss.rb:62:in `process_result'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/base.rb:40:in `parse'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/lib/sass/exec/base.rb:19:in `parse!'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.4.3/bin/sass:13:in `<top (required)>'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/bin/sass:19:in `load'
+C:/Users/BrunnerLivio/AppData/Local/Temp/Mindscape/WebWorkbench/Ruby193/Ruby193/bin/sass:19:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Sass::SyntaxError: \".drive-item\" failed to @extend \".z-depth-1\".\A The selector \".z-depth-1\" was not found.\A Use \"@extend .z-depth-1 !optional\" if the extend should be able to fail.\A "; }

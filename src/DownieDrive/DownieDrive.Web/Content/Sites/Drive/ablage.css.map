@@ -1,7 +1,7 @@
 {
-  "version": 3,
-  "file": "ablage.css",
-  "sources": ["ablage.scss"],
-  "names": [],
-  "mappings": "AAAA,cAAc,gBAAgB,cAEtB,SAAS,SACT,MAAM,KACN,OAAO"
+"version": 3,
+"mappings": "AAAA,6BAA6B;EACzB,OAAO,EAAC,GAAG;EACX,2CAAa;IACT,QAAQ,EAAC,QAAQ;IACjB,KAAK,EAAC,IAAI;IACV,MAAM,EAAC,IAAI",
+"sources": ["ablage.scss"],
+"names": [],
+"file": "ablage.css"
 }
