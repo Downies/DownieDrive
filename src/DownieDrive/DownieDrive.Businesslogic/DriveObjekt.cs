@@ -1,24 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace DownieDrive.Businesslogic
 {
-    [Table("File")]
-    public class File
+    public class DriveObjekt
     {
         [Key]
         public int Id { get; set; }
-
-        public double FileGrösse { get; set; }
-
-        public string FileTyp { get; set; }
-
-
-
     }
 }
