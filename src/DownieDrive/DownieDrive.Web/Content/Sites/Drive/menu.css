@@ -1,24 +1,105 @@
-.drive-menu {
+﻿.drive-menu {
   width: 300px;
   border-right: 1px solid #BDBDBD;
-  height: 100%; }
-  .drive-menu-avatar {
-    width: 100px;
-    height: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  .drive-menu-wrapper {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column; }
-  .drive-menu-user-name {
-    font-size: 22px;
-    color: #606062;
-    width: 100%;
-    text-align: center;
-    display: inline-block; }
+  height: 100%;
+}
+
+.drive-menu-avatar {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.drive-menu-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.drive-menu-user-name {
+  font-size: 22px;
+  color: #606062;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.drive-menu-level-text, .drive-menu-level-earned {
+  color: #cccccc;
+  font-size: 12px;
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.drive-menu-level-earned {
+  margin-top: 20px;
+}
+
+.drive-menu-progressbar {
+  background-color: #FFECB3;
+  width: 80%;
+  margin: auto;
+  height: 3px;
+}
+
+.drive-menu-progressbar-progress {
+  height: 100%;
+  background-color: #FFC107;
+}
+
+.drive-menu-list {
+  margin-top: 20px;
+}
+
+.drive-menu-list-item {
+  width: 200px;
+  display: block;
+  height: 50px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.drive-menu-list-item a {
+  color: #2b2b2b;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.drive-menu-list-item.active, .drive-menu-list-item:hover {
+  background-color: white;
+}
+
+.drive-menu-list-item.active#freunde .material-icons, #freunde.drive-menu-list-item:hover .material-icons {
+  color: #f44336;
+}
+
+.drive-menu-list-item.active#profil .material-icons, #profil.drive-menu-list-item:hover .material-icons {
+  color: #2196f3;
+}
+
+.drive-menu-list-item.active#ablage .material-icons, #ablage.drive-menu-list-item:hover .material-icons {
+  color: #4caf50;
+}
+
+.drive-menu-list-item .material-icons {
+  transition: color ease-in-out 0.5s;
+  will-change: color;
+  position: relative;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-right: 5px;
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=menu.css.map */
