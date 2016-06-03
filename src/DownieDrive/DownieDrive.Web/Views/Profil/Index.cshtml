@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Drive - Profil";
+    Layout = "~/Views/Shared/_DriveLayout.cshtml";
+}
+
+<div class="drive-content row" id="profil-content">
+    <div id="speichernutzung_card" class="z-depth-1 col s12 card">
+        <h3>Speichernutzung</h3>
+        <p>
+            ¯\_(ツ)_/¯ no chart yet ¯\_(ツ)_/¯
+        </p>
+    </div>
+    <div id="profile_card" class="z-depth-1 col s12 card">
+
+        <h3>Profil</h3>
+        <h4>Profilbild</h4>
+
+        <div class="margin-top">
+            @using (Html.BeginForm())
+            {
+                <img id="edit-profile-picture" class="circle" src="http://www.socratec.de/fileadmin/media/bilder/ansprechpartner/guido-hollenstein.jpg" alt="">
+                <div>
+                    <a id="upload-picture-button" class="waves-effect waves-light btn amber"><i class="material-icons left">file_upload</i>Bild hochladen</a>
+                </div>
+            }
+
+        </div>
+        <div class="margin-top row">
+            <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Vorname</label>
+            </div>
+        </div>
+
+    </div>
+</div>

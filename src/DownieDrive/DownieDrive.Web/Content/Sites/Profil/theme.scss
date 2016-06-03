@@ -1,0 +1,21 @@
+#profil-content{
+    width:100%;
+    padding:50px;
+    height:100%;
+    .card{
+        padding:15px;
+        h4{
+            color:#555555;
+        }
+    }
+    #edit-profile-picture{
+        float:left;
+        width:80px;
+        height:80px;
+        margin-right:20px;
+    }
+    #upload-picture-button{
+        margin-top:18px;
+        padding:0 10px;
+    }
+}
