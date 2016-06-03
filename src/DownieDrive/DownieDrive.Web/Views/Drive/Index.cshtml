@@ -1,7 +1,16 @@
-﻿
-@{
-    ViewBag.Title = "Drive";
+﻿@{
+    ViewBag.Title = "Drive - Ablage";
     Layout = "~/Views/Shared/_DriveLayout.cshtml";
 }
-
-
+@Html.Partial("~/Views/Components/_Folder.cshtml")
+<div class="drive-content" id="ablage-content">
+    <a class="btn-floating btn-large waves-effect waves-light amber dropdown-button" data-activates='add-item-dropdown'>
+        <i class="material-icons">add</i>
+    </a>
+    <ul id='add-item-dropdown' style="width:300px;" class='dropdown-content'>
+        <li><a href="#!">Ordner erstellen</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Datei hochladen</a></li>
+        <li><a href="#!">Ordner Hochladen</a></li>
+    </ul>
+</div>

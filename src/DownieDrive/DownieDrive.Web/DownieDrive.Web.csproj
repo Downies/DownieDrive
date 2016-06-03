@@ -106,14 +106,35 @@
     <Content Include="Content\Base\reset.css">
       <DependentUpon>reset.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Components\drive-item.css">
+      <DependentUpon>drive-item.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Components\drive-item.min.css">
+      <DependentUpon>drive-item.css</DependentUpon>
+    </Content>
     <Content Include="Content\main.css">
       <DependentUpon>main.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\ablage.css">
+      <DependentUpon>ablage.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\ablage.min.css">
+      <DependentUpon>ablage.css</DependentUpon>
     </Content>
     <Content Include="Content\Sites\Drive\menu.css">
       <DependentUpon>menu.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Sites\Drive\menu.min.css">
+      <DependentUpon>menu.css</DependentUpon>
+    </Content>
     <Content Include="Content\Sites\Drive\theme.css">
       <DependentUpon>theme.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\theme.min.css">
+      <DependentUpon>theme.css</DependentUpon>
     </Content>
     <Content Include="Content\Sites\Login\login.css">
       <DependentUpon>login.scss</DependentUpon>
@@ -124,6 +145,23 @@
     <Content Include="Content\Base\reset.scss" />
     <Content Include="Content\Sites\Drive\theme.scss" />
     <Content Include="Content\Sites\Drive\menu.scss" />
+    <Content Include="Content\main.css.map">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\menu.css.map">
+      <DependentUpon>menu.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\theme.css.map">
+      <DependentUpon>theme.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\ablage.scss" />
+    <Content Include="Content\Sites\Drive\ablage.css.map">
+      <DependentUpon>ablage.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Components\drive-item.scss" />
+    <Content Include="Content\Components\drive-item.css.map">
+      <DependentUpon>drive-item.css</DependentUpon>
+    </Content>
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />
     <Content Include="Images\spike.png" />
@@ -164,7 +202,9 @@
     <Content Include="lib\materialize\sass\materialize.css">
       <DependentUpon>materialize.scss</DependentUpon>
     </Content>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="fonts\roboto\Roboto-Bold.eot" />
     <Content Include="fonts\roboto\Roboto-Bold.ttf" />
     <Content Include="fonts\roboto\Roboto-Bold.woff" />
@@ -250,6 +290,7 @@
     <Content Include="Views\Shared\_CleanLayout.cshtml" />
     <Content Include="Views\Drive\Index.cshtml" />
     <Content Include="Views\Shared\_DriveMenu.cshtml" />
+    <Content Include="Views\Components\_Folder.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
