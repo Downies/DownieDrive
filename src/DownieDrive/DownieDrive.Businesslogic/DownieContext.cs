@@ -12,9 +12,9 @@ namespace DownieDrive.Businesslogic
             get
             {
 #if DEBUG
-                return "Debug";
+                return "DownieDrive_Debug";
 #else
-                return "Prod";
+                return "DownieDrive_Prod";
 #endif
             }
         }
