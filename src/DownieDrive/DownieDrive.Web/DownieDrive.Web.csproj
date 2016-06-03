@@ -109,8 +109,14 @@
     <Content Include="Content\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
+    <Content Include="Content\main.min.css">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
     <Content Include="Content\Sites\Drive\menu.css">
       <DependentUpon>menu.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\menu.min.css">
+      <DependentUpon>menu.css</DependentUpon>
     </Content>
     <Content Include="Content\Sites\Drive\theme.css">
       <DependentUpon>theme.scss</DependentUpon>
@@ -124,6 +130,12 @@
     <Content Include="Content\Base\reset.scss" />
     <Content Include="Content\Sites\Drive\theme.scss" />
     <Content Include="Content\Sites\Drive\menu.scss" />
+    <Content Include="Content\main.css.map">
+      <DependentUpon>main.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\menu.css.map">
+      <DependentUpon>menu.css</DependentUpon>
+    </Content>
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />
     <Content Include="Images\spike.png" />
@@ -164,7 +176,9 @@
     <Content Include="lib\materialize\sass\materialize.css">
       <DependentUpon>materialize.scss</DependentUpon>
     </Content>
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="fonts\roboto\Roboto-Bold.eot" />
     <Content Include="fonts\roboto\Roboto-Bold.ttf" />
     <Content Include="fonts\roboto\Roboto-Bold.woff" />
