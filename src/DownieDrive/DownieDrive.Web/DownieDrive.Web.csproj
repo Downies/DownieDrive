@@ -112,6 +112,12 @@
     <Content Include="Content\main.min.css">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="Content\Sites\Drive\ablage.css">
+      <DependentUpon>ablage.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\ablage.min.css">
+      <DependentUpon>ablage.css</DependentUpon>
+    </Content>
     <Content Include="Content\Sites\Drive\menu.css">
       <DependentUpon>menu.scss</DependentUpon>
     </Content>
@@ -120,6 +126,9 @@
     </Content>
     <Content Include="Content\Sites\Drive\theme.css">
       <DependentUpon>theme.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\theme.min.css">
+      <DependentUpon>theme.css</DependentUpon>
     </Content>
     <Content Include="Content\Sites\Login\login.css">
       <DependentUpon>login.scss</DependentUpon>
@@ -135,6 +144,13 @@
     </Content>
     <Content Include="Content\Sites\Drive\menu.css.map">
       <DependentUpon>menu.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\theme.css.map">
+      <DependentUpon>theme.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Sites\Drive\ablage.scss" />
+    <Content Include="Content\Sites\Drive\ablage.css.map">
+      <DependentUpon>ablage.css</DependentUpon>
     </Content>
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />

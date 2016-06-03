@@ -8375,7 +8375,7 @@ body {
 
 .drive-wrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   height: calc(100vh - 64px);
 }
@@ -8482,6 +8482,12 @@ body {
   transform: translateY(-50%);
   margin-right: 5px;
   margin-left: 10px;
+}
+
+.drive-content#ablage-content .btn-floating {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,5 +1,4 @@
-﻿
-@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
+﻿@{ Layout = "~/Views/Shared/_Layout.cshtml"; }
 
 <nav>
     <div class="nav-wrapper">
@@ -8,7 +7,8 @@
 </nav>
 <div class="drive-wrapper">
     @Html.Partial("~/Views/Shared/_DriveMenu.cshtml")
+    @RenderBody()
+
 </div>
 
-@RenderBody()
 @RenderSection("scripts", false)
