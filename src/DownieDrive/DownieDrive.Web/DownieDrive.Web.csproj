@@ -106,6 +106,12 @@
     <Content Include="Content\Base\reset.css">
       <DependentUpon>reset.scss</DependentUpon>
     </Content>
+    <Content Include="Content\Components\drive-item.css">
+      <DependentUpon>drive-item.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\Components\drive-item.min.css">
+      <DependentUpon>drive-item.css</DependentUpon>
+    </Content>
     <Content Include="Content\main.css">
       <DependentUpon>main.scss</DependentUpon>
     </Content>
@@ -151,6 +157,10 @@
     <Content Include="Content\Sites\Drive\ablage.scss" />
     <Content Include="Content\Sites\Drive\ablage.css.map">
       <DependentUpon>ablage.css</DependentUpon>
+    </Content>
+    <Content Include="Content\Components\drive-item.scss" />
+    <Content Include="Content\Components\drive-item.css.map">
+      <DependentUpon>drive-item.css</DependentUpon>
     </Content>
     <None Include="lib\jquery\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\logo_dropshadow.png" />
@@ -280,6 +290,7 @@
     <Content Include="Views\Shared\_CleanLayout.cshtml" />
     <Content Include="Views\Drive\Index.cshtml" />
     <Content Include="Views\Shared\_DriveMenu.cshtml" />
+    <Content Include="Views\Components\_Folder.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

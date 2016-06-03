@@ -3,5 +3,5 @@
   "file": "ablage.css",
   "sources": ["ablage.scss"],
   "names": [],
-  "mappings": "AAAA,AAAc,AAAgB,AAEtB,AAAS,AACT,AAAM,AACN,AAAO"
+  "mappings": "AAAA,cAAc,gBAAgB,cAEtB,SAAS,SACT,MAAM,KACN,OAAO"
 }
