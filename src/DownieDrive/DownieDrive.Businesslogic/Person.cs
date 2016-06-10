@@ -11,10 +11,11 @@ namespace DownieDrive.Businesslogic
     {
         [Key]
         public int Id { get; set; }
-        public string Benutzername { get; set; }
-        public string Passwort { get; set; }
+        public string Vorname { get; set; }
+        public string Nachname { get; set; }
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+        public string Passwort { get; set; }
         public int DowniePunkte { get; set; }
         public ProfilBild ProfilBild { get; set; }
         public string Beschreibung { get; set; }
