@@ -76,14 +76,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Benutzerrolle.cs" />
     <Compile Include="DownieContext.cs" />
     <Compile Include="DriveObjekt.cs" />
     <Compile Include="File.cs" />
+    <Compile Include="LevelFarbe.cs" />
+    <Compile Include="Metadaten.cs" />
     <Compile Include="Migrations\201606031053224_init.cs" />
     <Compile Include="Migrations\201606031053224_init.Designer.cs">
       <DependentUpon>201606031053224_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="ProfilBild.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

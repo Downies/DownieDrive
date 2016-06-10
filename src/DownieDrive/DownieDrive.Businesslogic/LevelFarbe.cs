@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace DownieDrive.Businesslogic
 {
-    public class ProfilBild : Metadaten
+    public class LevelFarbe : Metadaten
     {
         [Key]
         public int Id { get; set; }
-        public byte[] Daten { get; set; }
+        public string Beschreibung { get; set; }
+        public int LevelAnforderung { get; set; }
     }
 }
