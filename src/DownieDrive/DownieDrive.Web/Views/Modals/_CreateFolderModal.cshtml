@@ -1,11 +1,12 @@
-﻿<div id="create-folder-modal" class="modal">
+﻿@model DownieDrive.Web.Models.CreateFolderModal.CreateFolderModalViewModel
+<div id="create-folder-modal" class="modal">
     @using (Html.BeginForm())
     {
         <div class="modal-content">
             <h4>Ordner erstellen</h4>
             <div class="input-field">
-                <input id="folder_name" type="text" class="validate">
-                <label for="folder_name">Ordner Namen</label>
+                <input id="Bezeichnung" name="Bezeichnung" type="text" class="validate">
+                <label for="Bezeichnung">Ordner Namen</label>
             </div>
         </div>
         <div class="modal-footer">

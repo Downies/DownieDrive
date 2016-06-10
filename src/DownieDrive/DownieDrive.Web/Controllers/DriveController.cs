@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DownieDrive.Web.Models.Drive;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -20,7 +21,7 @@ namespace DownieDrive.Web.Controllers
         /// <returns>Die Index View</returns>
         public ActionResult Index()
         {
-            return View();
+            return View(new DriveViewModel());
         }
 
         public ActionResult Menu()
