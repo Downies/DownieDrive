@@ -20,8 +20,9 @@ namespace DownieDrive.Businesslogic
         public ProfilBild ProfilBild { get; set; }
         public string Beschreibung { get; set; }
         public bool Geschlecht { get; set; }
+        public int Level { get; set; }
    
-        public LevelFarbe Level { get; set; }
+        public LevelFarbe LevelFarbe { get; set; }
         public Benutzerrolle Benutzerrolle { get; set; }
 
     }
