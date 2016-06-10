@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,6 @@ namespace DownieDrive.Businesslogic
    
         public LevelFarbe LevelFarbe { get; set; }
         public Benutzerrolle Benutzerrolle { get; set; }
-
+        public ObservableCollection<DriveContent> DriveContent { get; set; }
     }
 }

@@ -1,9 +1,8 @@
-﻿
-@{
+﻿@{
+    ViewBag.ActiveTab = "profil";
     ViewBag.Title = "Drive - Profil";
     Layout = "~/Views/Shared/_DriveLayout.cshtml";
 }
-
 <div class="drive-content row" id="profil-content">
     <div id="speichernutzung_card" class="z-depth-1 col s12 card">
         <h3>Speichernutzung</h3>
@@ -12,10 +11,8 @@
         </p>
     </div>
     <div id="profile_card" class="z-depth-1 col s12 card">
-
         <h3>Profil</h3>
         <h4>Profilbild</h4>
-
         <div class="margin-top">
             @using (Html.BeginForm())
             {
@@ -24,14 +21,28 @@
                     <a id="upload-picture-button" class="waves-effect waves-light btn amber"><i class="material-icons left">file_upload</i>Bild hochladen</a>
                 </div>
             }
-
         </div>
         <div class="margin-top row">
             <div class="input-field col s6">
-                <input id="first_name" type="text" class="validate">
-                <label for="first_name">Vorname</label>
+                <input id="firstname" type="text" class="validate">
+                <label for="firstname">Vorname</label>
             </div>
         </div>
-
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="name" type="text" class="validate">
+                <label for="name">Nachname</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s6">
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+            </div>
+        </div>
+        <!-- Todo : Dropdown mit Gender -->
+        <div class="row">
+            <a id="upload-picture-button" class="waves-effect waves-light btn amber right-align"><i class="material-icons left">save</i>Speichern</a>
+        </div>
     </div>
 </div>
