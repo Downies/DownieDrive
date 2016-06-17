@@ -29,16 +29,21 @@ namespace DownieDrive.Businesslogic
         {
             // modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
             base.OnModelCreating(modelBuilder);
-        }
-        public DbSet<File> files { get; set; }
 
-        //public DbSet<Benutzerrolle> Benutzerrollen { get; set; }
-        //public DbSet<Datei> Dateien { get; set; }
-        //public DbSet<Ordner> Ordner { get; set; }
-        //public DbSet<DriveContent> DriveContent { get; set; }
-        //public DbSet<LevelFarbe> LevelFarben { get; set; }
-        //public DbSet<Person> Personen { get; set; }
-        //public DbSet<ProfilBild> ProfilBilder { get; set; }
+            modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.ParentOrdner).WithMany().WillCascadeOnDelete(false);
+            modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.OrdnerEigenschaften).WithOptionalDependent().WillCascadeOnDelete(true);
+            modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.DateiEigenschaften).WithOptionalDependent().WillCascadeOnDelete(true);
+
+        }
+        //public DbSet<File> files { get; set; }
+
+        public DbSet<Benutzerrolle> Benutzerrollen { get; set; }
+        public DbSet<Datei> Dateien { get; set; }
+        public DbSet<Ordner> Ordner { get; set; }
+        public DbSet<DriveContent> DriveContent { get; set; }
+        public DbSet<LevelFarbe> LevelFarben { get; set; }
+        public DbSet<Person> Personen { get; set; }
+        public DbSet<ProfilBild> ProfilBilder { get; set; }
 
     }
 }
