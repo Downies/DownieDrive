@@ -287,6 +287,7 @@
     </Compile>
     <Compile Include="Models\CreateFolderModal\CreateFolderModalViewModel.cs" />
     <Compile Include="Models\Drive\DriveViewModel.cs" />
+    <Compile Include="Models\UploadFileModal\UploadFileModalViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -305,6 +306,7 @@
     <Content Include="Views\Components\_File.cshtml" />
     <Content Include="Views\Modals\_CreateFolderModal.cshtml" />
     <Content Include="Views\Profil\Index.cshtml" />
+    <Content Include="Views\Modals\_UploadFileModal.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -315,6 +317,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="lib\materialize\js\bin\" />
+    <Folder Include="Views\File\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
