@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DownieDrive.Businesslogic
 {
-    public class Datei : DriveObjekt
+    public class Datei
     {
+        public int Id { get; set; }
         public double Dateigroesse { get; set; }
         public string Dateityp { get; set; }
     }

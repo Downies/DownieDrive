@@ -31,6 +31,8 @@ namespace DownieDrive.Businesslogic
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.ParentOrdner).WithMany().WillCascadeOnDelete(false);
+            modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.OrdnerEigenschaften).WithOptionalDependent().WillCascadeOnDelete(true);
+            modelBuilder.Entity<DriveObjekt>().HasOptional(x => x.DateiEigenschaften).WithOptionalDependent().WillCascadeOnDelete(true);
 
         }
         //public DbSet<File> files { get; set; }
