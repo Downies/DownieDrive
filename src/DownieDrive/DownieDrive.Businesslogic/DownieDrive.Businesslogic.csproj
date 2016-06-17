@@ -88,6 +88,10 @@
     <Compile Include="Migrations\201606031053224_init.Designer.cs">
       <DependentUpon>201606031053224_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606171129281_update-model.cs" />
+    <Compile Include="Migrations\201606171129281_update-model.Designer.cs">
+      <DependentUpon>201606171129281_update-model.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Ordner.cs" />
     <Compile Include="Person.cs" />
@@ -101,6 +105,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201606031053224_init.resx">
       <DependentUpon>201606031053224_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606171129281_update-model.resx">
+      <DependentUpon>201606171129281_update-model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
