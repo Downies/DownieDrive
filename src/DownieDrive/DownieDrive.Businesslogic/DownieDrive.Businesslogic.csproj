@@ -93,6 +93,8 @@
     <Compile Include="Person.cs" />
     <Compile Include="ProfilBild.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\DateiRepository\DateiRepository.cs" />
+    <Compile Include="Repositories\DateiRepository\IDateiRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
