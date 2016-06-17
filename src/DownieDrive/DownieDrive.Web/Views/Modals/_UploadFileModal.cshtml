@@ -1,0 +1,21 @@
+﻿@model DownieDrive.Web.Models.UploadFileModal.UploadFileModalViewModel
+<div id="upload-file-modal" class="modal">
+    @using (Html.BeginForm("Upload", "File", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="modal-content">
+            <h4>Datei hochladen</h4>
+            <div class="file-field input-field">
+                <div class="btn amber">
+                    <span>Datei</span>
+                    <input type="file">
+                </div>
+                <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text">
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <input type="submit" class="waves-effect waves-yellow btn-flat" value="Hochladen" />
+        </div>
+    }
+</div>
