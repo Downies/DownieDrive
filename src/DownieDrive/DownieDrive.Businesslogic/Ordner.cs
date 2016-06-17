@@ -2,6 +2,6 @@
 {
     public class Ordner : DriveObjekt
     {
-        public DriveObjekt DriveObjekt { get; set; }
+        public virtual DriveObjekt DriveObjekt { get; set; }
     }
 }

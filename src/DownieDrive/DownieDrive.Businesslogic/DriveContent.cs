@@ -12,7 +12,7 @@ namespace DownieDrive.Businesslogic
     {
         [Key]
         public int Id { get; set; }
-        public Person Person { get; set; }
-        public ObservableCollection<DriveObjekt> DriveObjekte { get; set; }
+        public virtual Person Person { get; set; }
+        public virtual ObservableCollection<DriveObjekt> DriveObjekte { get; set; }
     }
 }

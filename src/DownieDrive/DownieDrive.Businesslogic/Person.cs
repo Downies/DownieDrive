@@ -18,13 +18,13 @@ namespace DownieDrive.Businesslogic
         public string Email { get; set; }
         public string Passwort { get; set; }
         public int DowniePunkte { get; set; }
-        public ProfilBild ProfilBild { get; set; }
+        public virtual ProfilBild ProfilBild { get; set; }
         public string Beschreibung { get; set; }
         public bool Geschlecht { get; set; }
         public int Level { get; set; }
    
-        public LevelFarbe LevelFarbe { get; set; }
-        public Benutzerrolle Benutzerrolle { get; set; }
-        public ObservableCollection<DriveContent> DriveContent { get; set; }
+        public virtual LevelFarbe LevelFarbe { get; set; }
+        public virtual Benutzerrolle Benutzerrolle { get; set; }
+        public virtual ObservableCollection<DriveContent> DriveContent { get; set; }
     }
 }

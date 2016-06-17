@@ -11,7 +11,7 @@ namespace DownieDrive.Businesslogic
     {
         [Key]
         public int Id { get; set; }
-        public Ordner ParentOrdner { get; set; }
+        public virtual Ordner ParentOrdner { get; set; }
         public string UUID { get; set; }
         public string Name { get; set; }
     }
